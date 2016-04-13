@@ -3,5 +3,5 @@ Gem::Specification.new do |s|
   s.summary = "Adds a simple service check route and controller to your rails app"
   s.author = "Mark Woods"
   s.files = `git ls-files`.split("\n")
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 end
