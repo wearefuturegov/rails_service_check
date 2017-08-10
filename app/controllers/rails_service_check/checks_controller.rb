@@ -1,5 +1,5 @@
 module RailsServiceCheck
-  class ChecksController < ActionController::Base
+  class ChecksController < ActionController::API
 
     def all
       RailsServiceCheck.checks.each do |label, check|
